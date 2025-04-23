@@ -1,0 +1,93 @@
+.catatan-container {
+    max-width: 100%;
+}
+
+.note-form {
+    background: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.note-form input,
+.note-form textarea,
+.note-form select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.note-form textarea {
+    min-height: 100px;
+}
+
+.note {
+    background: #fff9c4;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.note-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.note-content {
+    white-space: pre-wrap;
+}
+
+.note-meta {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.note-meta label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.note-meta select {
+    margin-top: 5px;
+}
+
+.note-actions {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.note-actions a {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Tambahkan di bagian bawah */
+.editor-container {
+    margin-bottom: 10px;
+}
+
+.note-actions a {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #0073aa;
+}
+
+.note-actions a:hover {
+    color: #00a0d2;
+}
+
+.select2-container {
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+
+.note-form .wp-editor-tools {
+    background: white;
+    padding: 5px;
+}
+
+.note-form .mce-tinymce {
+    border: 1px solid #ddd !important;
+}
